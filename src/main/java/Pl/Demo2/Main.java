@@ -13,6 +13,13 @@ public class Main {
 		
 		System.out.println(client1.getName() + " " + client1.getlastName());
 		
+		City cityClient1 = new City();
+		
+		cityClient1.setCityName("Scranton");
+		cityClient1.setPostCode("1938834 29292");
+		cityClient1.setZipCode(123453);
+
+		System.out.println(cityClient1.getCityName() + " " + cityClient1.getZipCode());
 		
 	}
 
